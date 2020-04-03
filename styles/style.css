@@ -1,0 +1,62 @@
+:root {
+    font-size: 1rem;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ECEEF1;
+}
+
+a {
+    text-decoration: none;
+    color: #0077C5;
+}
+
+#navbar {
+    float: center;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: flex-end; */
+}
+
+.navbar-texts {
+    margin-top: -0.5rem;
+    margin-right: 1rem;
+}
+
+#navbar-text {
+    font-size: 0.8rem;
+    color: black;
+}
+
+#nav-link {
+     position: relative;
+    top: -2rem;
+    font-size: 0.8rem;
+    padding-bottom: 0.01rem;
+}
+
+#sign-in-button {
+    color: white;
+    background-color:#0077C5;
+    /*margin: 0.6rem 0.1rem 0.6rem 0.2rem;
+    border-radius: 0.5rem; */
+    /* align-self: inline-flex;  */
+    /* position: relative;
+    top: -2.4rem;
+    left: 0.5rem; */
+    display: flex;
+    flex: 0 2 2;
+    flex-direction: row;
+
+}
+
+#lock-icon {
+    display: inline-flex;
+}
+
