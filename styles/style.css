@@ -1,0 +1,51 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eceef1;
+    position: relative;
+    padding-bottom: 90px;  /*put the height/width of the footer (see this value in the web brpowser's Dev tools) in pixels as its value*/
+    min-height: 100vh;  /*vh (viewport height as unit of measure))*/
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 119, 197);
+}
+
+#navbar {
+    float: right;
+}
+
+.nav-texts {
+    margin-top: -0.1rem;
+}
+
+#nav-text {
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+#nav-link {
+    font-size: 0.8rem;
+    position: relative;
+    top: -2rem;
+}
+
+#sign-in-button {
+    color: white;
+    background-color:rgb(0, 119, 197) ;
+    padding: 0.7rem 1.2rem;
+    border-radius: 0.1rem;
+    position: relative;
+    top: -2rem;
+    left: 0.5rem;
+}
+
+#lock-icon {
+    margin-bottom: -0.25rem;
+}
