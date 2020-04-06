@@ -34,26 +34,24 @@ a {
 }
 
 .nav-texts {
-    margin-top: -0.1rem;
     display: flex;
     flex-wrap: wrap;
     margin-top: 0.3rem;
     line-height: 0.1rem;
-
-
+    margin-right: 1rem;
 }
 
 #nav-text {
     margin-right: -11.9rem;
-
+    color: grey;
+    font-weight: lighter;
 }
 
 
 #nav-link {
     font-size: 0.8rem;
-
     top: -2rem;
-    margin-top: 1rem;
+    margin-top: 1.3rem;
     text-align: match-parent;
 }
 
@@ -61,14 +59,15 @@ a {
     color: white;
     background-color: rgb(0, 119, 197);
     padding: 0.7rem 1.2rem;
-    border-radius: 0.1rem;
+    border-radius: 0.3rem;
     /*    position: relative;*/
     top: -2rem;
     left: 0.5rem;
 }
 
-#lock-icon {
+#lock-icon-nav {
     margin-bottom: -0.25rem;
+    opacity: 0.5;
 }
 
 #main-container {
@@ -78,7 +77,7 @@ a {
 }
 
 #intuit-logo {
-    margin-left: 5rem;
+    margin-left: 1rem;
 }
 
 #form-container {
