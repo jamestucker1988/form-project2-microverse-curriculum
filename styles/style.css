@@ -86,6 +86,8 @@ a {
     width: 380px;
     height: 80%;
     padding: 0.5rem 2rem 7rem 2rem;
+    /*    box-sizing: content-box;*/
+    position: relative;
 }
 
 h3 {
@@ -101,6 +103,7 @@ h3 {
     font-weight: lighter;
     font-size: 1rem;
     margin-bottom: -0.1rem;
+
 }
 
 #learn-more {
@@ -109,12 +112,8 @@ h3 {
 }
 
 #form-elements {
-    margin-top: 2rem;
-    /*
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-*/
+    margin-top: 1rem;
+
 }
 
 .input-bars {
@@ -146,8 +145,6 @@ h6 {
     margin-left: -0.5rem;
     box-shadow: none;
     font-size: 1rem;
-
-
     justify-content: center
 }
 
@@ -157,23 +154,54 @@ h6 {
     font-style: italic;
     margin-top: 5rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
+#main-container-lastchild {
+    margin-bottom: -2rem;
+    position: absolute;
+    margin-top: 9rem;
+    /*    padding: 1rem 1rem 1rem 1rem;*/
+    /*
+    margin-left: -1.1rem;
+    margin-right: -2rem;
+*/
+    background-color: grey;
+    box-sizing: content-box;
+    width: 100%;
+    height: 2.6rem;
+    line-height: 2.2rem;
+
+}
+
+/*
 #form-container-footer {
     display: inline-flex;
-    flex: 1 1 380px;
-}
+    flex-direction: column;
+    align-items: stretch;
+    position: absolute;
 
+}
+*/
+
+/*
 #main-container-texts1 {
-    margin-top: 1rem;
-    margin-bottom: -7rem;
+
+    margin-top: 8rem;
+    margin-bottom: 0rem;
+
     text-align: center;
     font-size: 0.8rem;
     color: grey;
-    padding: 1rem 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 2.0rem;
     background-color: lightgrey;
-}
-
+    bottom: 0;
+}*/
 
 
 
