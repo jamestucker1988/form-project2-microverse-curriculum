@@ -164,56 +164,29 @@ h6 {
     margin-bottom: -2rem;
     position: absolute;
     margin-top: 9rem;
-    /*    padding: 1rem 1rem 1rem 1rem;*/
-    /*
-    margin-left: -1.1rem;
-    margin-right: -2rem;
-*/
     background-color: grey;
     box-sizing: content-box;
     width: 100%;
     height: 2.6rem;
     line-height: 2.2rem;
+    background-color: #d6d8da;
 
 }
 
-/*
-#form-container-footer {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: stretch;
-    position: absolute;
-
-}
-*/
-
-/*
-#main-container-texts1 {
-
-    margin-top: 8rem;
-    margin-bottom: 0rem;
-
-    text-align: center;
-    font-size: 0.8rem;
-    color: grey;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1rem 2.0rem;
-    background-color: lightgrey;
-    bottom: 0;
-}*/
-
-
-
-
-
-
-
-
-
-
-#footer {
+footer {
     display: inline-block;
+    text-align: center;
+    margin-top: 1.4rem;
+    margin-left: -0.5rem;
+}
+
+.footer-texts {
+    color: rgb(78, 78, 78);
+    font-size: 0.8rem;
+}
+
+.footer-links:hover {
+    text-decoration: underline;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
