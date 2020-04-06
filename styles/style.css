@@ -24,27 +24,37 @@ a {
 }
 
 #navbar {
-    padding-left: 40rem;
-    position: relative;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+
 }
 
 .nav-texts {
     margin-top: -0.1rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.3rem;
+    line-height: 0.1rem;
+
+
 }
 
 #nav-text {
-    /*
-    font-size: 0.8rem;
-    opacity: 0.7;*/
-    display: flex;
-    flex-shrink: 2
+    margin-right: -11.9rem;
+
 }
 
 
 #nav-link {
     font-size: 0.8rem;
-    /*    position: relative;*/
+
     top: -2rem;
+    margin-top: 1rem;
+    text-align: match-parent;
 }
 
 #sign-in-button {
@@ -76,7 +86,8 @@ a {
     border: 0.1rem solid lightgrey;
     width: 380px;
     height: 80%;
-    padding: 0.5rem 2rem 20rem 2rem; 
+    padding: 0.5rem 2rem 20rem 2rem;
+    align-self: center;
 }
 
 h3 {
@@ -101,6 +112,11 @@ h3 {
 
 #form-elements {
     margin-top: 2rem;
+    /*
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+*/
 }
 
 .input-bars {
@@ -124,26 +140,39 @@ h6 {
 #create-account-button {
     color: white;
     background-color: rgb(0, 119, 197);
-    padding: 0.6rem 8.5rem 0.6rem 8.2rem;
+    padding: 0.8rem 8.5rem 0.8rem 8.2rem;
     border-radius: 0.5rem;
-    margin-top: 0.5rem;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 1.7rem;
     margin-left: -0.5rem;
     box-shadow: none;
     font-size: 1rem;
-    position: absolute;
-    /* flex-wrap: wrap-reverse; */
+
+
+    justify-content: center
 }
+
+#lock-create-account {}
 
 .main-container-texts {
     color: rgb(82, 81, 81);
     font-size: 0.8rem;
     font-style: italic;
+    margin-top: 5rem;
+    text-align: center;
 }
 
-#main-container-text-1 {
-    margin-top: 6rem;
-    margin-bottom: -1rem;
+
+#main-container-texts1 {
+
+    position: absolute;
+    margin-top: 18rem;
+    text-align: center;
+    font-size: 0.8rem;
+
 }
+
 
 
 
@@ -163,24 +192,35 @@ h6 {
    License: none (public domain)
 */
 
-html, body, div, 
-h4, h5, h6, p,
-a, form, label,
-footer, nav, section, {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+h4,
+h5,
+h6,
+p,
+a,
+form,
+label,
+footer,
+nav,
+section,
+    {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
-footer, nav, section {
-	display: block;
+footer,
+nav,
+section {
+    display: block;
 }
 
 body {
-	line-height: 1;
+    line-height: 1;
 }
-
