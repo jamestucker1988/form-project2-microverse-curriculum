@@ -60,6 +60,7 @@ a {
     position: relative;
     top: -0.4rem;
     left: 0.5rem;
+    margin-right: 1rem;
 }
 
 #sign-in-text {
@@ -133,7 +134,7 @@ h6 {
 
 #unlock_icon {
     position: absolute;
-    bottom: 48%;
+    bottom: 44.9%;
     left: 23.7rem;
     opacity: 0.5;
 }
