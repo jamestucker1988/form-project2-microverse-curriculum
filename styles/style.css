@@ -178,6 +178,10 @@ ul > li {
     margin-left: -0.8rem;
 }
 
+#main-container-text-2 {
+    margin-left: -1rem;
+}
+
 li:last-child {
     margin-left: 5.5rem;
     line-height: 1.5rem;
