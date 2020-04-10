@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="styles/style.css" type="text/css" rel="stylesheet" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <!--Link in order to use Google icons (Google apps icon) within the HTML file-->
-        <meta charset="utf-8" />
+        <title>Project 2 - HTML Forms</title>
     </head>
 
     <body>
@@ -17,7 +17,7 @@
                 <a href=" " id="sign-in-button"><span class="material-icons" id="lock-icon-nav">lock_outline</span><span id="sign-in-text">Sign-in</span></a>
             </nav>
 
-            <section id="main-container">
+            <div id="main-container">
                 <img src="webpage-logo.png" alt="source-logo" id="intuit-logo">
 
                 <section id="form-container">
@@ -25,14 +25,14 @@
                     <h5 id="form-container-text">One account for everything Intuit, including Mint</h5>
                     <a href="" id="learn-more">Learn More</a>
 
-                    <form action=" " method="post" name="intuit-form" id="form-elements">
-                        <label for="@email">Email address</label><br>
-                        <input type="email" name="@email" class="input-bars" size="45" required><br>
+                    <form action="/submit " method="post" name="intuit-form" id="form-elements">
+                        <label for="email">Email address</label><br>
+                        <input type="email" name="@email" class="input-bars" id="email" size="45" required><br>
                         <label for="phonenumber">Phone (recommended)</label><br>
-                        <input type="tel" name="phonenumber" class="input-bars" size="45" required><br>
+                        <input type="tel" name="phonenumber" class="input-bars" id="phonenumber" size="45" required><br>
                         <h6>Standard call,messaging or data rates may apply</h6>
                         <label for="password">Password</label><br>
-                        <input type="password" name="password" class="input-bars" size="45" required><span class="material-icons" id="unlock_icon">lock_open</span>
+                        <input type="password" name="password" class="input-bars" id="password" size="45" required><span class="material-icons" id="unlock_icon">lock_open</span>
                         <button id="create-account-button"><span class="material-icons">lock_outline</span>Create<span style="padding-left: 0.2rem;">Account</span> </button>
                     </form>
 
@@ -51,7 +51,7 @@
                         <p id="main-container-lastchild">Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> and <a href="">Terms of Use</a>.</p>
                     </div>
                 </section>
-            </section>
+            </div>
         </main>
 
         <footer>
