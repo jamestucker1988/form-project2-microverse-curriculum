@@ -56,18 +56,9 @@ nav {
     justify-content: flex-end; */
 }
 
-.navbar-element {
-    list-style: none;
-}
-
-/*
 .nav-texts {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 0.3rem;
     line-height: 0.1rem;
-    margin-right: 1rem;
-}*/
+}
 
 /*
 #nav-text {
