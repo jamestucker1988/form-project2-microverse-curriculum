@@ -1,30 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html,
-body,
-div,
-h4,
-h5,
-h6,
-p,
-a,
-form,
-label,
-footer,
-nav,
-section,
-    {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
 :root {
     font-size: 1rem;
 }
@@ -46,77 +19,49 @@ a {
 }
 
 #navbar {
+
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    */
+    /*    float: right;*/
 }
-
-/*
-.nav-texts {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 0.3rem;
-    line-height: 0.1rem;
-    margin-right: 1rem;
-}*/
-
-/*
-#nav-text {
-    margin-right: -11.9rem;
-    color: grey;
-    font-weight: lighter;
-}*/
-
-/*
-#nav-link {
-    font-size: 0.8rem;
-    top: -2rem;
-    margin-top: 1.3rem;
-    text-align: match-parent;
-}
-*/
 
 #navbar > ul {
-    /*    padding-right: 10rem;*/
-
-
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
     grid-auto-flow: row;
     grid-template-rows: 1.5rem 1.5rem;
-    grid-gap: 0.5rem;
-    line-height: 0.5rem;
-}
 
+    grid-gap: 0.5rem;
+
+}
 
 #navbar ul > li:first-child {
     grid-area: 1/1/2/2;
     opacity: 0.5;
-    width: 400px;
+    width: 25rem;
+    align-self: flex-end;
 }
 
 #navbar ul > li:nth-child(2) {
-
     grid-area: 2 /1 / 3/2;
     align-self: flex-start;
-    width: 400px;
+    width: 25rem;
 }
 
 #navbar ul > li:nth-child(3) {
     grid-area: 1/2/-1/-1;
+    align-self: center;
+
 }
-
-
 
 #sign-in-button {
     color: white;
     background-color: rgb(0, 119, 197);
-    padding: 0.3rem 0.8rem;
+    padding: 1rem 0.8rem;
     border-radius: 0.3rem;
     position: relative;
-    top: -0.4rem;
-    left: 0.5rem;
-    margin-right: 1rem;
 }
 
 #sign-in-text {
@@ -170,16 +115,43 @@ h3 {
     flex: initial;
 }
 
+/*
+<<<<<<< HEAD .input-bars {
+    http: //meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126 License: none (public domain) html,
+    body,
+    div,
+    h4,
+    h5,
+    h6,
+    p,
+    a,
+    form,
+    label,
+    footer,
+    nav,
+    section,
+        {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    padding: 0.7rem;
+    border: 0.2px solid grey;
+}*/
 .input-bars {
     padding: 0.7rem;
     border: 0.2px solid grey;
 }
 
-h6 {
+/*
+> > > > > > > 291346ec15e05e6e333d98b360e75b61397ec3bc h6 {
     font-weight: lighter;
     margin-top: -0.1rem;
-}
-
+}*/
 #unlock_icon {
     position: absolute;
     bottom: 44.9%;
@@ -209,10 +181,15 @@ h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
+    /*    <<<<<<< HEAD position: relative;*/
 }
 
+/*
 name="intuit-form"id="form-elements" > <label for="email" > Email address</label > <br > ul {
+    =======
+}
+*/
+ul {
     list-style: none;
 }
 
@@ -235,13 +212,14 @@ li:last-child {
 }
 
 #main-container-lastchild {
+    margin-bottom: -2rem;
     position: absolute;
-    top: 8.2rem;
+    margin-top: 9rem;
     text-align: center;
-    padding: 0.55rem 0.20rem;
+    padding: 0.55rem 0.14rem;
     background-color: grey;
     box-sizing: content-box;
-    width: 115.5%;
+    width: 100%;
     height: 2.6rem;
     line-height: 2.2rem;
     background-color: #d6d8da;
@@ -263,13 +241,28 @@ footer {
     text-decoration: underline;
 }
 
-
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+h4,
+h5,
+h6,
+p,
+a,
+form,
+label,
 footer,
 nav,
-section {
-    display: block;
-}
-
-body {
-    line-height: 1;
+section,
+    {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
