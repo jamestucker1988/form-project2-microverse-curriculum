@@ -1,3 +1,34 @@
+<<<<<<< HEAD
+=======
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+h4,
+h5,
+h6,
+p,
+a,
+form,
+label,
+footer,
+nav,
+section,
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+>>>>>>> 8b69a8a60c998e97f72c750f562d5c0d36b65717
 :root {
     font-size: 1rem;
 }
@@ -11,6 +42,10 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #eceef1;
+<<<<<<< HEAD
+=======
+    overflow-x: hidden;
+>>>>>>> 8b69a8a60c998e97f72c750f562d5c0d36b65717
 }
 
 a {
@@ -19,6 +54,7 @@ a {
 }
 
 #navbar {
+<<<<<<< HEAD
 
     display: flex;
     flex-direction: row;
@@ -41,12 +77,40 @@ a {
     grid-area: 1/1/2/2;
     opacity: 0.5;
     width: 25rem;
+=======
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navbar > ul { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 9rem));
+    grid-auto-flow: row;
+    grid-auto-rows: 0;
+    grid-template-rows: 1.5rem 1.5rem;
+    grid-gap: 1px;
+    /* margin-right: -88px; */
+    font-size: 0.7rem;
+} 
+
+ul > li {
+    list-style: none;
+    margin: 0;
+}
+
+ 
+#navbar ul > li:first-child {
+    grid-area: 1/1/2/2;
+    opacity: 0.5;
+    width: 400px;
+>>>>>>> 8b69a8a60c998e97f72c750f562d5c0d36b65717
     align-self: flex-end;
 }
 
 #navbar ul > li:nth-child(2) {
     grid-area: 2 /1 / 3/2;
     align-self: flex-start;
+<<<<<<< HEAD
     width: 25rem;
 }
 
@@ -55,10 +119,22 @@ a {
     align-self: center;
 
 }
+=======
+    width: 400px;
+    align-self: flex-start;
+}
+
+#navbar ul > li:nth-child(3) {
+    grid-area: 1/2/2/span 1;
+    align-self: flex-start;
+    float: left;
+} 
+>>>>>>> 8b69a8a60c998e97f72c750f562d5c0d36b65717
 
 #sign-in-button {
     color: white;
     background-color: rgb(0, 119, 197);
+<<<<<<< HEAD
     padding: 1rem 0.8rem;
     border-radius: 0.3rem;
     position: relative;
@@ -67,6 +143,22 @@ a {
 #sign-in-text {
     position: relative;
     top: -0.4rem;
+=======
+    padding: 0.6rem 0.8rem;
+    border-radius: 0.3rem;
+    position: relative;
+    left: -0.3rem;
+    display: inline-flex;
+
+}
+
+/* #lock-icon-nav {
+    top: 0.2rem;
+} */
+
+#sign-in-text {
+    padding-bottom: 0.2rem;
+>>>>>>> 8b69a8a60c998e97f72c750f562d5c0d36b65717
 }
 
 #main-container {
@@ -115,6 +207,7 @@ h3 {
     flex: initial;
 }
 
+<<<<<<< HEAD
 /*
 <<<<<<< HEAD .input-bars {
     http: //meyerweb.com/eric/tools/css/reset/ 
@@ -142,16 +235,30 @@ h3 {
     padding: 0.7rem;
     border: 0.2px solid grey;
 }*/
+=======
+.input-bars {
+    padding: 0.7rem;
+    border: 0.2px solid grey;
+}
+>>>>>>> 8b69a8a60c998e97f72c750f562d5c0d36b65717
 .input-bars {
     padding: 0.7rem;
     border: 0.2px solid grey;
 }
 
+<<<<<<< HEAD
 /*
 > > > > > > > 291346ec15e05e6e333d98b360e75b61397ec3bc h6 {
     font-weight: lighter;
     margin-top: -0.1rem;
 }*/
+=======
+h6 {
+    font-weight: lighter;
+    margin-top: -0.1rem;
+}
+
+>>>>>>> 8b69a8a60c998e97f72c750f562d5c0d36b65717
 #unlock_icon {
     position: absolute;
     bottom: 44.9%;
@@ -181,6 +288,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+<<<<<<< HEAD
     /*    <<<<<<< HEAD position: relative;*/
 }
 
@@ -190,11 +298,24 @@ name="intuit-form"id="form-elements" > <label for="email" > Email address</label
 }
 */
 ul {
+=======
+}
+
+ul {
+    position: relative;
+}
+
+name="intuit-form"id="form-elements" > <label for="email" > Email address</label > <br > ul {
+>>>>>>> 8b69a8a60c998e97f72c750f562d5c0d36b65717
     list-style: none;
 }
 
 ul > li {
+<<<<<<< HEAD
     list-style-position: outride;
+=======
+    list-style-position: outset;
+>>>>>>> 8b69a8a60c998e97f72c750f562d5c0d36b65717
     line-height: 0.5rem;
 }
 
@@ -212,6 +333,7 @@ li:last-child {
 }
 
 #main-container-lastchild {
+<<<<<<< HEAD
     margin-bottom: -2rem;
     position: absolute;
     margin-top: 9rem;
@@ -222,6 +344,16 @@ li:last-child {
     width: 100%;
     height: 2.6rem;
     line-height: 2.2rem;
+=======
+    position: absolute;
+    bottom: -0.8rem;
+    text-align: center;
+    padding: 0.55rem 0.20rem;
+    background-color: grey;
+    box-sizing: border-box;
+    width: 100%;
+    height: 2.6rem;
+>>>>>>> 8b69a8a60c998e97f72c750f562d5c0d36b65717
     background-color: #d6d8da;
 }
 
@@ -241,6 +373,7 @@ footer {
     text-decoration: underline;
 }
 
+<<<<<<< HEAD
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -266,3 +399,5 @@ section,
     font: inherit;
     vertical-align: baseline;
 }
+=======
+>>>>>>> 8b69a8a60c998e97f72c750f562d5c0d36b65717
