@@ -126,6 +126,21 @@ ul > li {
     align-items: center;
 }
 
+img ~ div {
+    display: inline-flex;
+    object-fit: cover;
+    padding-top: 1rem;
+    justify-content: flex-start;
+    font-size: 0.6rem;
+    bottom: auto;
+}
+
+img ~ div > P {
+    padding: 0rem 0.3rem;
+    font-size: 1rem;
+    color: grey;
+}
+
 #intuit-logo {
     margin-left: 1rem;
 }
@@ -133,9 +148,9 @@ ul > li {
 #form-container {
     background-color: white;
     border: 0.1rem solid lightgrey;
-    width: 380px;
+    width: 25%;
     height: 80%;
-    margin: 1.5rem;
+    margin: 1.8rem;
 }
 
 h3 {
@@ -163,14 +178,16 @@ h3 {
 }
 
 #form-elements {
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    flex: initial;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-flow: column;
+    grid-gap: 1.5rem;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .input-bars {
-    padding: 0.7rem;
+    padding: 0.6rem 0rem;
     border: 0.2px solid grey;
 }
 
@@ -215,14 +232,15 @@ h3 {
 
 #main-container-lastchild {
     position: absolute;
-    bottom: 0.5rem;
+    bottom: -1.2rem;
     text-align: center;
     padding: 0.55rem 0.20rem;
     background-color: grey;
-    box-sizing: border-box;
+    box-sizing: border-bo;
     width: 100%;
     height: auto;
     background-color: #d6d8da;
+    border-collapse: collapse;
 }
 
 footer {
