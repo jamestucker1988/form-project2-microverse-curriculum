@@ -19,9 +19,9 @@
 
 <body>
     <main>
-        <div id="main-container">
+        <div class="main-container">
             <img src="Screen Shot 2020-04-11 at 18.39.52.png" alt="">
-            <div id="x"> <img src="Screen Shot 2020-04-11 at 18.42.31.png" alt="">
+            <div> <img src="Screen Shot 2020-04-11 at 18.42.31.png" alt="">
                 <p>mint</p>
                 <img src="Screen Shot 2020-04-11 at 18.42.45.png" alt="">
                 <p>quickbooks</p>
@@ -46,7 +46,7 @@
                     </div>
                     <div><label for="password">Password</label><br>
                         <input type="password" name="password" class="input-bars" id="password" size="45" required><span class="material-icons" id="unlock_icon">lock_open</span>
-                        <button id="create-account-button"><span class="material-icons">lock_outline</span>Create<span style="padding-left: 0.2rem;">Account</span> </button>
+                        <button id="create-account-button" class="input-bars"><span class="material-icons">lock_outline</span>Create<span>Account</span> </button>
                     </div>
                 </form>
                 <div id="main-container-texts">
@@ -61,16 +61,22 @@
                             <a href="">Statement.</a>
                         </li>
                     </ul>
-                    <p id="main-container-lastchild">Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> and <a href="">Terms of Use</a>.</p>
+
                 </div>
+                <p id="main-container-lastchild">Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> and <a href="">Terms of Use</a>.</p>
             </section>
         </div>
     </main>
 </body>
-<footer>
-    <a href="" class="footer-links footer-texts">Legal</a>
-    <a href="" class="footer-links footer-texts">Privacy</a>
-    <a href="" class="footer-links footer-texts">Security</a>
+<footer class="main-container">
+    <ul>
+        <li> <a href="" class="footer-texts">Legal</a></li>
+        <li><a href="" class="footer-texts">Privacy</a></li>
+        <li><a href="" class="footer-texts">Security</a></li>
+    </ul>
+
+
+
     <p class="footer-texts"> © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
     <p class="footer-texts">Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
 </footer></html>
