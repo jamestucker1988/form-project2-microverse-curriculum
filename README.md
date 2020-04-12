@@ -1,7 +1,7 @@
 # Project 2 - HTML Forms
 ​
-This is an assigned project where we were supposed to replicate/clone Mint's sign up page as seen in the link: 
-https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26ivid%3Dddfff704-1e22-4a27-ade6-46cb8dcfb7e3%26adobe_mc%3DMCMID%253D09763015799951790270192162432395205604%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1585819100%26ivid%3Dddfff704-1e22-4a27-ade6-46cb8dcfb7e3
+This is an assigned project where we were supposed to replicate/clone Mint's sign up page as seen in the link:
+<a href="https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26ivid%3Dddfff704-1e22-4a27-ade6-46cb8dcfb7e3%26adobe_mc%3DMCMID%253D09763015799951790270192162432395205604%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1585819100%26ivid%3Dddfff704-1e22-4a27-ade6-46cb8dcfb7e3">click here</a>
 ​
 ​
 ## Preview of our webpage
