@@ -176,6 +176,7 @@ h3 ~ ul > li:nth-child(1) {
 
 h3 ~ ul > li:nth-child(2) {
     margin-left: 30%;
+    font-size: 0.8rem;
 }
 
 h6 {
