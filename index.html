@@ -9,78 +9,81 @@
     <!--Link in order to use Google icons (Google apps icon) within the HTML file-->
     <title>Project 2 - HTML Forms</title>
 </head>
-<nav id="navbar">
-    <ul>
-        <li>Already have an intuit account?</li>
-        <li><a href="" class="nav-texts" id="nav-link">I forgot my User ID or Password</a></li>
-        <li><a href=" " id="sign-in-button"><span class="material-icons" id="lock-icon-nav">lock_outline</span><span id="sign-in-text">Sign-in</span></a></li>
-    </ul>
-</nav>
 
 <body>
-    <main>
-        <div class="main-container">
-            <img src="Screen Shot 2020-04-11 at 18.39.52.png" alt="">
-            <div> <img src="Screen Shot 2020-04-11 at 18.42.31.png" alt="">
-                <p>mint</p>
-                <img src="Screen Shot 2020-04-11 at 18.42.45.png" alt="">
-                <p>quickbooks</p>
-                <img src="Screen Shot 2020-04-11 at 18.43.02.png" alt="">
-                <p>turbotax</p>
+
+    <nav id="navbar">
+        <ul>
+            <li>Already have an intuit account?</li>
+            <li><a href="" class="nav-texts" id="nav-link">I forgot my User ID or Password</a></li>
+            <li><a href=" " id="sign-in-button"><span class="material-icons" id="lock-icon-nav">lock_outline</span><span id="sign-in-text">Sign-in</span></a></li>
+        </ul>
+    </nav>
+
+
+
+    <div class="main-container">
+        <img src="ScreenShot2020-04-11at18.39.52.png" alt="">
+        <div> <img src="ScreenShot2020-04-11at18.42.31.png" alt="">
+            <p>mint</p>
+            <img src="ScreenShot2020-04-11at18.42.45.png" alt="">
+            <p>quickbooks</p>
+            <img src="ScreenShot2020-04-11at18.43.02.png" alt="">
+            <p>turbotax</p>
+        </div>
+
+        <section id="form-container">
+            <div id="x">
+                <h3>Create an Intuit account</h3>
+                <ul>
+                    <li>One account for everything Intuit, including Mint</li>
+                    <li><a href=" ">Learn More</a></li>
+                </ul>
+
+
             </div>
 
-            <section id="form-container">
-                <div id="x">
-                    <h3>Create an Intuit account</h3>
-                    <ul>
-                        <li>One account for everything Intuit, including Mint</li>
-                        <li><a href=" ">Learn More</a></li>
-                    </ul>
 
-
+            <form action="/submit " method="post" name="intuit-form" id="form-elements">
+                <div><label for="email">Email address</label><br>
+                    <input type="email" name="@email" class="input-bars" id="email" size="45" required><br></div>
+                <div><label for="phonenumber">Phone (recommended)</label><br>
+                    <input type="tel" name="phonenumber" class="input-bars" id="phonenumber" size="45" required><br>
+                    <h6>Standard call,messaging or data rates may apply</h6>
                 </div>
-
-
-                <form action="/submit " method="post" name="intuit-form" id="form-elements">
-                    <div><label for="email">Email address</label><br>
-                        <input type="email" name="@email" class="input-bars" id="email" size="45" required><br></div>
-                    <div><label for="phonenumber">Phone (recommended)</label><br>
-                        <input type="tel" name="phonenumber" class="input-bars" id="phonenumber" size="45" required><br>
-                        <h6>Standard call,messaging or data rates may apply</h6>
-                    </div>
-                    <div><label for="password">Password</label><br>
-                        <input type="password" name="password" class="input-bars material-icons" id="password" size="45" required><span class="material-icons" id="unlock_icon">lock_open</span>
-                        <button id="create-account-button" class="input-bars"><span class="material-icons">lock_outline</span>Create<span>Account</span> </button>
-                    </div>
-                </form>
-                <div id="main-container-texts">
-                    <ul>
-                        <li>
-                            <p>By clicking Create account, you agree to our</p>
-                        </li>
-                        <li id="main-container-text-2">
-                            <a href="">Terms </a>and have read and acknowledge our <a href="https://img.icons8.com/material-sharp/24/000000/lock-2.png">Privacy </a>
-                        </li>
-                        <li>
-                            <a href="">Statement.</a>
-                        </li>
-                    </ul>
-
+                <div><label for="password">Password</label><br>
+                    <input type="password" name="password" class="input-bars material-icons" id="password" size="45" required><span class="material-icons" id="lock_open">lock_open</span>
+                    <button id="create-account-button" class="input-bars"><span class="material-icons">lock_outline</span>Create<span>Account</span> </button>
                 </div>
-                <p id="main-container-lastchild">Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> and <a href="">Terms of Use</a>.</p>
-            </section>
-        </div>
-    </main>
+            </form>
+            <div id="main-container-texts">
+                <ul>
+                    <li>
+                        <p>By clicking Create account, you agree to our</p>
+                    </li>
+                    <li id="main-container-text-2">
+                        <a href="">Terms </a>and have read and acknowledge our <a href="https://img.icons8.com/material-sharp/24/000000/lock-2.png">Privacy </a>
+                    </li>
+                    <li>
+                        <a href="">Statement.</a>
+                    </li>
+                </ul>
+
+            </div>
+            <p id="main-container-lastchild">Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> and <a href="">Terms of Use</a>.</p>
+        </section>
+    </div>
+
+
+    <footer class="main-container">
+        <ul>
+            <li> <a href="" class="footer-texts">Legal</a></li>
+            <li><a href="" class="footer-texts">Privacy</a></li>
+            <li><a href="" class="footer-texts">Security</a></li>
+        </ul>
+        <p class="footer-texts"> © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+        <p class="footer-texts">Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+    </footer>
 </body>
-<footer class="main-container">
-    <ul>
-        <li> <a href="" class="footer-texts">Legal</a></li>
-        <li><a href="" class="footer-texts">Privacy</a></li>
-        <li><a href="" class="footer-texts">Security</a></li>
-    </ul>
 
-
-
-    <p class="footer-texts"> © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
-    <p class="footer-texts">Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
-</footer></html>
+</html>
