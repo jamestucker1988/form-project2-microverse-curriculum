@@ -160,7 +160,7 @@ img ~ div > p {
 #form-container > div {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     color: rgb(107, 105, 105);
 }
 
@@ -209,8 +209,8 @@ h6 {
     border-radius: 0.5rem;
     display: inline-flex;
     justify-content: center;
-    margin-top: 1.4rem;
-    align-self: stretch;
+    margin-top: 0.5rem;
+    align-self: flex-start;
     box-shadow: none;
     font-size: 1rem;
 }
@@ -227,12 +227,21 @@ h6 {
     color: rgb(82, 81, 81);
     font-size: 0.8rem;
     font-style: italic;
-    padding: 0.5rem 0;
+    padding: 0.1rem 0;
     text-align: justify;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     align-items: flex-start;
+    align-content: flex-start; */
     opacity: 0.8;
+    margin-top: 0.001rem;
+    /* line-height: 0.7rem; */
+    
+    top: 0.1rem;
+}
+
+#main-container ul {
+    margin-top: 0.4rem;
 }
 
 #main-container-texts li:nth-child(2) {
