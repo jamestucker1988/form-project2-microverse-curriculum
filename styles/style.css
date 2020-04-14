@@ -198,7 +198,7 @@ h6 {
     width: 100%;
     margin: auto;
     min-width: 160px;
-    /*    line-height: 1.3em;*/
+
 
 }
 
@@ -237,7 +237,7 @@ h6 {
     opacity: 0.8;
 }
 
-#main-container-texts li:nth-child(2) {
+#main-container-texts li:nth-child(2) /*    line-height: 1.3em;*/{
     padding-right: 2rem;
 }
 
