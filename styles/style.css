@@ -214,9 +214,10 @@ h6 {
 }
 
 #unlock_icon {
-    position: absolute;
-    bottom: 52.3%;
-    left: 57.3%;
+    position: relative;
+    z-index: 1;
+    bottom: 23%;
+    left: 87.3%;
     opacity: 0.5;
 }
 
