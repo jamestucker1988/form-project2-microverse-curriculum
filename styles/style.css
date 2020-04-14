@@ -173,11 +173,13 @@ h3 {
 
 h3 ~ ul > li:nth-child(1) {
     font-size: 14px;
+    padding-right: 2.2rem;
 }
 
 h3 ~ ul > li:nth-child(2) {
     margin-left: 30%;
     font-size: 0.8rem;
+
 }
 
 h6 {
@@ -270,36 +272,21 @@ h6 {
     grid-template-columns: repeat(3, 3rem);
     grid-gap: 0.05rem;
     align-self: initial;
-    /* left: 49%; */
+
     padding: 0 2rem 0 0.5rem;
     margin-top: 0;
     line-height: 0.1rem;
     font-size: 5px;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-basis: 0.5rem; */
-
-    /* display: inline;
-    padding: 0 0.2rem; */
 
 }
 
-.main-container  ul > li:nth-child(3) {
+.main-container ul > li:nth-child(3) {
     padding-left: 0.5rem;
-   /*  display: inline-flex; */
-    /* align-self: flex-end; */
-    /* text-align: end; */
-    /* padding: auto 0.5rem; */
-
 }
-
-/* footer {
-    padding: 20px 0;
-} */
 
 footer ul ~ p {
-    line-height: 0.005rem;
-    font-size: 5px;
+    color: rgb(78, 78, 78);
+    line-height: 0.01rem;
+    font-size: 0.7rem;
     align-items: flex-start;
 }
