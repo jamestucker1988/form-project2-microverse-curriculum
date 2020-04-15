@@ -181,7 +181,6 @@ h3 ~ ul > li:nth-child(1) {
 h3 ~ ul > li:nth-child(2) {
     margin-left: 30%;
     font-size: 0.8rem;
-
 }
 
 h6 {
@@ -225,14 +224,11 @@ h6 {
     opacity: 0.5;
 }
 
-
 #main-container-texts > ul {
     color: rgb(82, 81, 81);
     font-size: 0.8rem;
     font-style: italic;
-
     padding: 0;
-
     text-align: center;
     line-height: 0.6rem;
     margin-top: 0;
@@ -240,15 +236,12 @@ h6 {
     align-self: stretch;
 }
 
-
-
 #main-container-texts li:nth-child(2) {}
 
 #main-container-texts li:nth-child(3) {
     padding-left: auto;
     padding-top: 0.7rem;
 }
-
 
 #main-container-lastchild {
     position: relative;
@@ -284,7 +277,6 @@ h6 {
     margin-top: 0;
     line-height: 0.1rem;
     font-size: 0.8rem;
-
 }
 
 .main-container ul > li:nth-child(3) {
