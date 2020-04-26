@@ -35,7 +35,7 @@ https://jamestucker1988.github.io/form-project2-microverse-curriculum/
 ​
 Contributions, issues and feature requests are welcome!
 ​
-Feel free to check the [issues page](https://github.com/jamestucker1988/Embedding-images-in-video/issues).
+Feel free to check the [issues page](https://github.com/jamestucker1988/form-project2-microverse-curriculum/issues).
 ​
 ## Show your support
 ​
