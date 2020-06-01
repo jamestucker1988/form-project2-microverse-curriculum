@@ -42,10 +42,9 @@ Feel free to check the [issues page](https://github.com/jamestucker1988/form-pro
 Give a ⭐️ if you like this project!
 ​
 ## Acknowledgments
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Our Stand-Up Teams
+- Microverse TSE's
 ​
 ## �� License
 ​
-This project is [MIT](lic.url) licensed.
+This project is [MIT](LICENSE.txt) licensed.
