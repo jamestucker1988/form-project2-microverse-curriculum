@@ -13,8 +13,27 @@ This is an assigned project where we were supposed to replicate/clone <a href="h
 ​
 ## Live Demo of our project
 
-https://jamestucker1988.github.io/form-project2-microverse-curriculum/
+<a href="https://jamestucker1988.github.io/form-project2-microverse-curriculum/">Live demo</a>
+
+## Getting Started
+
+To get a local copy up and running follow the simple steps outlined below.
+
+## How To Use 🔧
 ​
+1. Clone the projects' repository into your machine.
+
+```bash
+# Clone this repository
+$ git clone git@github.com:jamestucker1988/form-project2-microverse-curriculum.git
+
+```
+2. Change directory/Go into the repository with the command below.
+
+```bash
+$ cd form-project2-microverse-curriculum
+
+```
 ​
 ## Authors
 ​
@@ -42,6 +61,7 @@ Feel free to check the [issues page](https://github.com/jamestucker1988/form-pro
 Give a ⭐️ if you like this project!
 ​
 ## Acknowledgments
+
 - Our Stand-Up Teams
 - Microverse TSE's
 - Our mentors
