@@ -20,6 +20,8 @@ This is an assigned project where we were supposed to replicate/clone <a href="h
 To get a local copy up and running follow the simple steps outlined below.
 
 ## How To Use 🔧
+
+From your command line, do the folowing steps below:
 ​
 1. Clone the projects' repository into your machine.
 
