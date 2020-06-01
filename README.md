@@ -44,6 +44,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 - Our Stand-Up Teams
 - Microverse TSE's
+- Our mentors
 ​
 ## �� License
 ​
